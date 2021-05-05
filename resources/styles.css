@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	color: White;
+	background-color: #0e1b40;
+	display: grid;
+	justify-items: center;
+	flex-direction: column;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+a {
+	display: grid;
+	color: #a189e8;
+	align-items: center;
+	justify-items: center;
+}
+
+.email {
+	display: inline-grid;
+}
+
+button {
+	align-self: start;
+	position: absolute;
+    height: 40px;
+	width: 80px;
+}
